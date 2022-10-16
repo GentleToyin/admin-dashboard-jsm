@@ -164,7 +164,7 @@ const customerGridStatus = (props) => (
     <p>{props.Status}</p>
   </div>
 );
-export const areaPrimaryXAxis = {
+export const AreaPrimaryXAxis = {
   valueType: "DateTime",
   labelFormat: "y",
   majorGridLines: { width: 0 },
@@ -173,7 +173,7 @@ export const areaPrimaryXAxis = {
   labelStyle: { color: "gray" },
 };
 
-export const areaPrimaryYAxis = {
+export const AreaPrimaryYAxis = {
   labelFormat: "{value}%",
   lineStyle: { width: 0 },
   maximum: 4,
@@ -482,6 +482,7 @@ export const employeesGrid = [
   },
   {
     headerText: "Country",
+    field: "Country",
     width: "120",
     textAlign: "Center",
     template: gridEmployeeCountry,
@@ -570,30 +571,30 @@ export const links = [
         icon: <AiOutlineAreaChart />,
       },
 
-      {
-        name: "bar",
-        icon: <AiOutlineBarChart />,
-      },
-      {
-        name: "pie",
-        icon: <FiPieChart />,
-      },
-      {
-        name: "financial",
-        icon: <RiStockLine />,
-      },
-      {
-        name: "color-mapping",
-        icon: <BsBarChart />,
-      },
-      {
-        name: "pyramid",
-        icon: <GiLouvrePyramid />,
-      },
-      {
-        name: "stacked",
-        icon: <AiOutlineBarChart />,
-      },
+      // {
+      //   name: "bar",
+      //   icon: <AiOutlineBarChart />,
+      // },
+      // {
+      //   name: "pie",
+      //   icon: <FiPieChart />,
+      // },
+      // {
+      //   name: "financial",
+      //   icon: <RiStockLine />,
+      // },
+      // {
+      //   name: "color-mapping",
+      //   icon: <BsBarChart />,
+      // },
+      // {
+      //   name: "pyramid",
+      //   icon: <GiLouvrePyramid />,
+      // },
+      // {
+      //   name: "stacked",
+      //   icon: <AiOutlineBarChart />,
+      // },
     ],
   },
 ];
