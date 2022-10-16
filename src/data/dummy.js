@@ -925,7 +925,7 @@ export const ordersGrid = [
   {
     headerText: "Status",
     template: gridOrderStatus,
-    field: "OrderItems",
+    field: "Status",
     textAlign: "Center",
     width: "120",
   },
@@ -2043,8 +2043,8 @@ export const ordersData = [
     TotalAmount: 32.38,
     OrderItems: "Fresh Tomato",
     Location: "USA",
-    Status: "pending",
-    StatusBg: "#FB9678",
+    Status: "complete",
+    StatusBg: "#8BE78B",
     ProductImage: product6,
   },
   {
